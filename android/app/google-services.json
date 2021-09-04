@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "235656368981",
+    "project_id": "setora-91dd7",
+    "storage_bucket": "setora-91dd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235656368981:android:6b69bcfbba8c53b4d415dc",
+        "android_client_info": {
+          "package_name": "com.setora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235656368981-nk8qrpr9goafu34e41bphcuu5vn81n94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.setora",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "235656368981-ru9r1irrd7a9vq8pbsns4i2v6fuh5ktg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxibXOjspmf9jj2YNSCM5j0UoeGeW2LZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235656368981-ru9r1irrd7a9vq8pbsns4i2v6fuh5ktg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
