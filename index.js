@@ -3,7 +3,6 @@ import {registerProtectedComponent} from './src/registerProtectedComponent.tsx';
 
 import LandingScreen from './src/screens/Landing.screen';
 import CheckInboxScreen from './src/screens/CheckInbox.screen';
-import SendEmailLinkScreen from './src/screens/SendEmailLink.screen';
 import CheckEmailLinkScreen from './src/screens/CheckEmailLink.screen';
 
 import HomeScreen from './src/screens/Home.screen';
@@ -13,10 +12,6 @@ Navigation.registerComponent('co.setora.LandingScreen', () => LandingScreen);
 Navigation.registerComponent(
   'co.setora.CheckInboxScreen',
   () => CheckInboxScreen,
-);
-Navigation.registerComponent(
-  'co.setora.SendEmailLinkScreen',
-  () => SendEmailLinkScreen,
 );
 Navigation.registerComponent(
   'co.setora.CheckEmailLinkScreen',
