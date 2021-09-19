@@ -1,13 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import React from 'react';
 import {
   SafeAreaView,
@@ -49,7 +39,7 @@ const Section: React.FC<{
   );
 };
 
-const App = () => {
+const Home = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -66,7 +56,7 @@ const App = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">Landing screen</Section>
+          <Section title="Step One">Welcome to home screen</Section>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -92,4 +82,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Home;

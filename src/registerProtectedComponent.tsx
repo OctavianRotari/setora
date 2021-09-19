@@ -4,7 +4,7 @@ import {Navigation} from 'react-native-navigation';
 import {View, ActivityIndicator} from 'react-native';
 import firebaseAuth, {FirebaseAuthTypes} from '@react-native-firebase/auth';
 
-import {landingRoot} from './screens/roots';
+import {landingRoot} from './roots';
 
 const CurrentUserContext = React.createContext<
   FirebaseAuthTypes.User | undefined
